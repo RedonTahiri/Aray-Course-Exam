@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Playfair Display", Arial, sans-serif;
+}
+
+.upper-part {
+  margin: 0;
+  height: 800px;
+  width: 100%;
+  background: url("bg.png")
+}
+
+.upper-part nav {
+  color: white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.upper-part nav .left {
+  margin-left: 10%;
+  font-size: 1rem;
+}
+
+.upper-part nav .links ul {
+  display: flex;
+  flex-direction: space-between;
+  list-style: none;
+}
+
+.upper-part nav .links ul {
+  cursor: pointer;
+}
+
+.upper-part nav .links ul li {
+  font-size: 1.1rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.upper-part nav .right h3 {
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-top: 2%;
+  margin-left: 50%;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 20%;
+  text-align: center;
+  background-color: #a33358;
+  border-radius: 100px;
+}
+
+.upper-part nav .right h3:hover {
+  cursor: pointer;
+}
+
+.upper-content {
+  gap: 10%;
+  position: relative;
+  margin: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.upper-content .left {
+  color: white;
+}
+
+.upper-content .left h1 {
+  font-size: 3rem;
+}
+
+.upper-content .left p {
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+
+.upper-content .left h2 {
+  background-color: white;
+  color: black;
+  width: 30%;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 50px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.upper-content .left h2:hover {
+  cursor: pointer;
+}
+
+.upper-content .right {
+  margin-left: 20%;
+}
+
+.upper-content .right h1 {
+  font-size: 4rem;
+  text-align: center;
+  background-color: #d9d9d9;
+  padding: 25%;
+  font-weight: 300;
+  border-radius: 50px;
+}
+
+.lorem {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.lorem h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.lorem p {
+  font-size: 2rem;
+}
+
+.lorem .boxed {
+  background-color: #d9d9d9;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 50px;
+  padding: 3rem;
+}
+
+.lorem .boxed h2 {
+  background-color: white;
+  color: black;
+  width: 30%;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 50px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.lorem .boxed h2:hover {
+  cursor: pointer;
+}
+
+.middle-content {
+  gap: 10%;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background-color: #d9d9d9;
+  padding-bottom: 5%;
+}
+
+.middle-content .left {
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+}
+
+.middle-content .left .red-box {
+  background-color: #a33358;
+  height: 20rem;
+  width: 50%;
+  margin: auto;
+  border-radius: 30px;
+  margin-top: -2rem;
+}
+
+.middle-content .left .title-box {
+  background-color: #ffffff;
+  width: 40%;
+  margin: auto;
+  margin-top: -10%;
+  border-radius: 15px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 3.5rem;
+}
+
+.middle-content .left h1,
+h2 {
+  font-weight: 400;
+}
+
+.middle-content .right {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.middle-content .right h1 {
+  font-weight: 400;
+}
+
+.form-container {
+  margin-top: -2rem;
+  border-radius: 8px;
+  width: 60%;
+}
+
+.form-container input,
+.form-container textarea {
+  width: calc(100% - 20px);
+  font-family: "Playfair Display";
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.form-container input {
+  float: left;
+}
+
+.form-container button {
+  font-family: "Playfair Display";
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #a33358;
+  color: #fff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.first-form {
+  display: flex;
+  width: calc(100% + 10px);
+  margin: 0;
+  gap: 10px;
+}
+
+.ending {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.ending h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.ending p {
+  font-size: 2rem;
+  width: 80%;
+  margin: auto;
+}
+
+.grid-img {
+  margin-top: 5%;
+  gap: 2rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-img div {
+  margin: auto;
+  padding: 2rem;
+  outline: 5px solid #d9d9d9;
+  border-radius: 5px;
+  font-size: 2em;
+}
+
+.grid-img div img {
+  margin: auto;
+  display: block;
+}
+
+.grid-img p {
+  text-align: left;
+  margin-top: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.grid-img h2 {
+  font-size: 2rem;
+  margin: auto;
+  margin-top: 10rem;
+  background-color: #a33358;
+  color: #ffffff;
+  width: 60%;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 50px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.grid-img .middle {
+  background-color: #a33358;
+  color: #ffffff;
+  outline: none;
+}
+
+.grid-img .middle h2 {
+  background-color: white;
+  color: black;
+}
+
+.grid-img h2:hover {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #a33358;
+  width: 95%;
+  margin: auto;
+  margin-top: 10%;
+  color: white;
+  text-align: center;
+}
+
+footer h1 {
+  font-size: 3rem;
+  padding: 2%;
+  font-weight: 600;
+}
+
+footer p {
+  font-size: 1.5em;
+}
+
+footer .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+footer .buttons p {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+footer .buttons p:hover {
+  cursor: pointer;
+}
+
+footer hr {
+  margin-top: 4%;
+  width: 70%;
+  border: 0;
+  border-top: 1px solid #ffffff;
+  outline: none;
+  height: 1px;
+}
+
+.footer-nav {
+  display: flex;
+  margin: auto;
+  margin-top: 2%;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.footer-nav ul {
+  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer-nav ul li:hover {
+  cursor: pointer;
+}
+
+.footer-nav p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1024px) {
+  .upper-part nav {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .upper-part nav .right h3 {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .upper-content .left p {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  .upper-content .right h1 {
+    padding: 15%;
+    font-size: 2.5rem;
+  }
+
+  .grid-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-img div {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .upper-part nav {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .upper-part nav .left {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .upper-part nav .links ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .upper-part nav .links ul li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  .upper-part nav .right h3 {
+    font-size: 1rem;
+    width: auto;
+    padding: 0.4rem 1rem;
+  }
+
+  .upper-content {
+    margin: 5%;
+    display: block;
+  }
+
+  .upper-content .left h1 {
+    font-size: 2rem;
+  }
+
+  .upper-content .left p {
+    font-size: 1rem;
+    width: 90%;
+  }
+
+  .upper-content .right {
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .upper-content .right h1 {
+    font-size: 3rem;
+    padding: 10%;
+  }
+
+  .middle-content {
+    grid-template-columns: 1fr;
+  }
+
+  .middle-content .left,
+  .middle-content .right {
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .upper-part nav .right h3 {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+  }
+
+  .upper-content .left h1 {
+    font-size: 1.5rem;
+  }
+
+  .upper-content .left p {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .upper-content .right h1 {
+    font-size: 2.5rem;
+    padding: 8%;
+  }
+
+  .upper-content .left h2 {
+    margin: auto;
+  }
+
+  .lorem .boxed h2 {
+    font-size: 1.2rem;
+  }
+
+  .form-container button {
+    width: auto;
+  }
+
+  .grid-img {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-img div {
+    font-size: 1em;
+  }
+
+  footer h1 {
+    font-size: 2rem;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+}
