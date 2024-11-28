@@ -20,7 +20,7 @@ body {
 }
 
 .upper-part nav .left {
-  margin-left: 10%;
+  margin-left: 30%;
   font-size: 1rem;
 }
 
@@ -82,6 +82,7 @@ body {
 
 
 .upper-content .left h2 {
+  font-size: 1.4rem;
   background-color: white;
   color: black;
   width: 30%;
@@ -112,7 +113,7 @@ body {
 
 .lorem {
   text-align: center;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 
@@ -122,26 +123,29 @@ body {
 }
 
 .lorem p {
+  width: 90%;
+  margin: auto;
   font-size: 2rem;
 }
 
 .lorem .boxed {
   background-color: #d9d9d9;
-  width: 80%;
+  width: 88%;
   margin: auto;
   margin-top: 5%;
-  border-radius: 50px;
+  border-radius: 30px;
   padding: 3rem;
 }
 
 .lorem .boxed h2 {
   background-color: white;
   color: black;
-  width: 30%;
+  width: 15%;
   margin: auto;
   margin-top: 10%;
   text-align: center;
   font-weight: 400;
+  font-size: 1.4rem;
   border-radius: 50px;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -154,6 +158,7 @@ body {
 
 .middle-content {
   gap: 10%;
+  height: 100%;
   margin-top: 5rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -263,9 +268,9 @@ h2 {
 
 .grid-img {
   margin-top: 5%;
-  gap: 2rem;
-  margin-left: 2%;
-  margin-right: 2%;
+  gap: 5rem;
+  margin-left: 5%;
+  margin-right: 5%;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -291,7 +296,7 @@ h2 {
 }
 
 .grid-img h2 {
-  font-size: 2rem;
+  font-size: 1.4rem;
   margin: auto;
   margin-top: 10rem;
   background-color: #a33358;
@@ -346,6 +351,7 @@ footer .buttons {
 }
 
 footer .buttons p {
+  font-size: 1.4rem;
   background-color: #ffffff;
   color: black;
   border-radius: 50px;
@@ -418,7 +424,12 @@ footer hr {
   }
 
   .grid-img div {
+    width: 80%;
     font-size: 1.5em;
+  }
+
+  .grid-img div img {
+    width: 80%;
   }
 }
 
@@ -507,10 +518,26 @@ footer hr {
 
   .upper-content .left h2 {
     margin: auto;
+    width: 50%;
+  }
+
+  .lorem .boxed {
+    width: 70%;
   }
 
   .lorem .boxed h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    width: 60%;
+  }
+
+  .middle-content {
+    height: 1150px;
+  }
+
+  .form-container {
+    width: 80%;
+    margin: auto;
+    margin-top: -2rem;
   }
 
   .form-container button {
@@ -522,7 +549,7 @@ footer hr {
   }
 
   .grid-img div {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   footer h1 {
